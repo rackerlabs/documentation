@@ -1,17 +1,25 @@
 Getting Started Guide
 =====================
 
-Ready to get started with ObjectRocket's MongoDB as a Service?
+ObjectRocket provides a signup wizard to help you with the initial ObjectRocket set up process. This Getting Started Guide
+provides an overview of the concepts and processes involved in the initial set up, so you can begin using your ObjectRocket
+instances quickly.
 
-What you'll need:
-- An ObjectRocket account
+Set up requirements
+~~~~~~~~~~~~~~~~~~~~~~
+You need to set up or configure the following resources to use the ObjectRocket service:
+
+- An ObjectRocket account 
 - Credit card information for billing
-- An ObjectRocket plan which equates to a single 'shard'_
+- Subscription to an ObjectRocket plan
 - An ObjectRocket instance.
-- A database
+- A MongoDB database hosted on the ObjectRocket instance.
 - A network ACL to provide outside network access to the ObjectRocket system.
 
  .. _shard: http://docs.mongodb.org/manual/core/sharded-cluster-shards/
+ 
+ 
+ 
  
 ObjectRocket plan
 ~~~~~~~~~~~~~~~~~~~~~~ 
