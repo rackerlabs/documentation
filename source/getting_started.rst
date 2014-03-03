@@ -83,7 +83,7 @@ After you create the ACL, it might take a few minutes for the ACL to take effect
 
 
 Sign up with ObjectRocket
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~
 Use the ObjectRocket signup wizard to set up the account, specify billing information, select a service plan, and
 create your first instance. Then, you can add databases and create and configure the ACL.
 
@@ -103,8 +103,6 @@ After you complete the initial set up, use the following links to manage your ac
 When the database set up is complete, you are ready to use your ObjectRocket instance. You can find the database connect 
 string on the ObjectRocket Instances page.
 
-..WRITER COMMNENT 
-
-You are all set to start using your ObjectRocket instance.  Your connect string details are listed on the instances page.
+Contact Support
 
 If you have any questions, concerns or comments. contact ObjectRocket Support'.  please reach out at support@objectrocket.com.
