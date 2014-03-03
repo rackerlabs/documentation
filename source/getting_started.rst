@@ -27,10 +27,10 @@ Review the following information to learn about the concepts and processes relev
 Understanding this information will help you provide the correct information during the sign up, set up, and 
 configuration process.
  
-'ObjectRocket plan'_
-'ObjectRocket instance'_
-'MongoDB database setup'_
-'Network ACL'_
+- 'ObjectRocket plan'_
+- 'ObjectRocket instance'_
+- 'MongoDB database setup'_
+- 'Network ACL'_
 
 
 ObjectRocket plan
