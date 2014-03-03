@@ -1,7 +1,7 @@
 Getting Started Guide
 =====================
 
-ObjectRocket provides a signup wizard to help you with the initial ObjectRocket set up process. This Getting Started Guide
+ObjectRocket provides a signup wizard to help you set up and ObjectRocket account and configure the service. This Getting Started Guide
 provides an overview of the concepts and processes involved in the initial set up, so you can begin using your ObjectRocket
 instances quickly.
 
@@ -17,13 +17,12 @@ You need the following resources to use the ObjectRocket service:
 - A MongoDB database hosted on the ObjectRocket instance.
 - A network ACL to provide outside network access to the ObjectRocket system.
 
- .. _shard: http://docs.mongodb.org/manual/core/sharded-cluster-shards/
- 
- 
+.. _Before_you_begin
+
 Before you begin
 ~~~~~~~~~~~~~~~~~~~~~~ 
- 
-Review the following information to learn about the concepts and processes relevant to the setup process.
+
+Review this section for information about concepts and processes relevant to the setup process.
 Understanding this information will help you provide the correct information during the sign up, set up, and 
 configuration process.
  
@@ -32,26 +31,29 @@ configuration process.
 - 'MongoDB database setup'_
 - 'Network ACL'_
 
+.. _ObjectRocket_plan_gs
 
 ObjectRocket plan
 ------------------
-An ObjectRocket plan is the same as a single 'shard'_. The plan specifies the unit of MongoDB storage required. 
+An ObjectRocket plan is the same as a single 'shard <http://docs.mongodb.org/manual/core/sharded-cluster-shards/>'. The plan specifies the unit of MongoDB storage required. 
 ObjectRocket offers a variety of plans and pricing options. Before you begin the sign up process, 
- review the 'plan descirptions' to determine which one meets your requirements. You can always upgrade your plan as your
+ review the 'plan descriptions: <http://www.objectrocket.com/pricing>' to determine which one meets your requirements. You can always upgrade your plan as your
  
  
 .. WRITER QUESTION:  In your current Getting Started, you say that plan and a single shard are synonyms, but then the descritption
 says that you can add always add more shards to your plan as your data set grows.  That's a little confusing.  Also.  what is a "unit".
 
- 
- .. _plan descriptions: http://www.objectrocket.com/pricing
- 
-Instance
+
+.. _Instance_gs
+
+ObjectRocket Instance
 ------------------
 An instance is a complete MongoDB cluster that provides the container for interacting with the ObjectRocket service.
 Instances can be hosted in Rackspacee zones or AWS Direct Connect zones. When you create an instance, ObjectRocket creates
 the connect string required to establish the database connection.
 
+
+.. _MongoDB_db_setup_gs
 
 MongoDB database setup
 ----------------------
@@ -59,6 +61,8 @@ After you create an instance, you can add one or more MongoDB databases to that 
 copy an existing database from a remote system. During the initial set up process, specify a database name, and at least one username and
 password.  You can add more users later. 
 
+
+.. _Network_ACL_gs
 
 Network ACL
 ------------------
@@ -82,12 +86,15 @@ If you wanted to provide access to the host in this example, specify 1.1.1.1/32 
 After you create the ACL, it might take a few minutes for the ACL to take effect.
 
 
-Sign up with ObjectRocket
-~~~~~~~~~~~~~~~~~~~~~~
-Use the ObjectRocket signup wizard to set up the account, specify billing information, select a service plan, and
-create your first instance. Then, you can add databases and create and configure the ACL.
+.. setup_objrocket_svc_gs
 
-.. _signup wizard: https://app.objectrocket.com/sign_up1
+Set up your ObjectRocket service
+~~~~~~~~~~~~~~~~~~~~~~
+
+#. Use the 'ObjectRocket signup wizard <https://app.objectrocket.com/sign_up1>' to 
+set up your account, specify billing information, select your ObjectRocket plan. amd create your first instance.
+#. Add a new database or import a MongoDB database and provide the username and password credentials for loggin in. 
+#. Create a network ACL to allow remote clients and servers to access the ObjectRocket instance.
 
 After you complete the initial set up, use the following links to manage your account, billing information, and ObjectRocket instance.
 
